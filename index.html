@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>First JS Quiz</title>
+    
+</head>
+<body>
+
+    <!-- info box will include the rules about the quiz  -->
+    <div class="info-box">
+        <div class="info-title">
+            <span>Coding Quiz Challenge</span>
+        </div>
+        <div class="quiz-info">
+            <p>
+                Try to answer the following code-related questions within the time limit. <br>
+                Keep in mind that incorrect answers will penalize your score/time <br>
+                by 10 seconds!
+            </p>
+        </div>
+    <!-- Whenever the user click the star btn, the quiz will star -->
+        <div class="start-btn"><button>Start Quiz</button></div>
+    </div>
+    <!-- The header will provide us importan information such as the time remaining -->
+    <header>
+        <div class="title">View high scores</div>
+        <div class="timer">
+            <div class="time-text">Time:</div>
+            <div class="time-sec">15</div>
+        </div>
+        
+    </header>
+
+    <div class="quiz-box">
+        <section>
+            <div class="que-text">
+                <span>Arrays in JavaScript can be used to store ____.</span>
+            </div>
+            <!-- this class will modify each of our possible answer options -->
+            <div class="option-list">
+                <div class="option">
+                    <span>1.- numbers and strings</span>
+                </div>
+                <div class="option">
+                    <span>2.- other arrays</span>
+                </div>
+                <div class="option">
+                    <span>3.- boolens</span>
+                </div>
+                <div class="option">
+                    <span>4.- all the above</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="result">
+                <span></span>
+            </div>
+        </footer>
+    </div>
+
+    <div class="result-box">
+        <section>
+            <header>
+                <div class="result-title">All done!</div>
+            </header>
+            <div class="result-text">
+                <p>Your final score is <span>22</span>. <br>
+                    Enter initials: <input type="textbox">
+                </p>
+            </div>
+        <!-- this footer will help us to manage easier our submit button -->
+            <footer>
+            <div class="sub-btn">
+                <button>Submit</button>
+            </div>
+            </footer>        
+        </section>
+    </div>
+    
+    <!-- result box -->
+    <div class="high-box">
+            <div class="high-title">High scores
+            </div>
+           <div class="high-list">
+            <ol type="1">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+           </div>
+           <div class="high-buttons">
+            <button class="go-back">Go back</button>
+            <button class="clear">Clear high scores</button>
+           </div>
+    </div>
+
+    <!-- our js perfeclty linked -->
+    <script src="script.js"></script>
+</body>
+</html>
